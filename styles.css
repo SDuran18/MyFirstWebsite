@@ -26,17 +26,30 @@ height:100vh;
 background: url(Assets/red-panoramic-city-skyline-poster-260nw-2451161159.webp)no-repeat bottom;
 background-origin: border-box;
  } 
- .tooltip {
-    position:relative;
-    bottom: 10px;
-    left:60vh
-    
+ 
+ h1{
+   position: relative;
+   padding: 10px;
  }
- .tooltip .tooltiptext{
-    background-color: bisque;
-    visibility: hidden;
-    width: 12opx;
+ .SiteLogo img{
+   border-radius:50%;
+     height: 80px;
+      position: absolute;
+      top: 5px;
+      left: 220px
+ }
+ .tooltip{
+   position: absolute;
+    left: 300px; 
+    top: 40px;
+ }
+ .tooltiptext{
+   visibility: hidden;
+   position: absolute;
+   left: 110%;
+
  }
  .tooltip:hover .tooltiptext{
-    visibility: visible;
+   visibility: visible;
  }
+ 
