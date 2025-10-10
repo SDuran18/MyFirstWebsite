@@ -1,0 +1,42 @@
+.NavBar {
+    background-color: red;
+     color: white;
+      border-radius: 10px;
+}
+.NavButton {
+    color: white;
+     background-color: transparent;
+      border-color: transparent;
+       margin-left: 18px;
+        margin-right: 18px;
+}
+.NavLink {
+    color:white ;
+     font-size:18px;
+      text-decoration-line: none;
+}
+h1 {
+font-family:'Lucida Sans';
+font-weight: bold;
+font-size: 28px;
+color: red;
+}
+body {
+height:100vh;
+background: url(Assets/red-panoramic-city-skyline-poster-260nw-2451161159.webp)no-repeat bottom;
+background-origin: border-box;
+ } 
+ .tooltip {
+    position:relative;
+    bottom: 10px;
+    left:60vh
+    
+ }
+ .tooltip .tooltiptext{
+    background-color: bisque;
+    visibility: hidden;
+    width: 12opx;
+ }
+ .tooltip:hover .tooltiptext{
+    visibility: visible;
+ }
