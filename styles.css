@@ -52,4 +52,19 @@ background-origin: border-box;
  .tooltip:hover .tooltiptext{
    visibility: visible;
  }
- 
+ table,td,th{
+  border:5px ridge black;
+  padding: 20px;
+ }
+ table{
+  border-collapse: collapse;
+  word-spacing:5px;
+  letter-spacing:1px
+ }
+ th{
+  background-color: red;
+ }
+ td{
+  padding-left:50px;
+  padding-right:50px;
+ }
