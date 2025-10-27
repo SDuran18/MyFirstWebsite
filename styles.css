@@ -21,12 +21,6 @@ font-weight: bold;
 font-size: 28px;
 color: red;
 }
-body {
-height:100vh;
-background: url(Assets/red-panoramic-city-skyline-poster-260nw-2451161159.webp)no-repeat bottom;
-background-origin: border-box;
- } 
- 
  h1{
    position: relative;
    padding: 10px;
@@ -67,4 +61,13 @@ background-origin: border-box;
  td{
   padding-left:50px;
   padding-right:50px;
+ }
+ .TextBox{
+  border:2px groove red;
+  margin:5px;
+  border-radius:10px;
+  background-color:red;
+  font-family: 'Courier New', Courier, monospace;
+  font-style:italic;
+  color:whitesmoke;
  }
