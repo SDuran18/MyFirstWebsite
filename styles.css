@@ -71,3 +71,9 @@ color: red;
   font-style:italic;
   color:whitesmoke;
  }
+ .TextBox .HeaderBox{
+  border: 5px solid #dee3dc  ;
+  border-radius:10px ;
+  background:#dee3dc;
+  color: red
+ }
